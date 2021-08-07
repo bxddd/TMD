@@ -1,7 +1,8 @@
-local whitelisted =  ("FNFbot7"), ("NinjaZineWs"), ("16tery_na16"), ("3"), ("3")
+local whitelisted =  ("fnfbot7"), ("NinjaZineWs"), ("16tery_na16"), ("3"), ("3")
 
 function script()
 
+wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Credits"; -- the title (ofc)
 Text = "Credits to Bxd."; -- what the text says (ofc)
@@ -150,19 +151,21 @@ game:GetService("ReplicatedStorage").REMOTES.Spell:FireServer(unpack(args))
 end
 end
 end)
+--script 8:
+game.Players.LocalPlayer.Chatted:Connect(function(message)
+    if message == "remove" then
+    workspace.Players:FindFirstChild(game:GetService("Players").LocalPlayer.Name).InTrans:Destroy()
+workspace:FindFirstChild(game:GetService("Players").LocalPlayer.Name).InTrans:Destroy()
+    end
+end)
+--sciprt 9:
 
 game.Players.LocalPlayer.Chatted:Connect(function(message)
     if message == "reset" then
-game.Players.LocalPlayer.Character.Humanoid:Destroy()
+    game.Players.LocalPlayer.Character.Humanoid:Destroy()
+    end
 end)
 
-game.Players.LocalPlayer.Chatted:Connect(function(message)
-    if message == "remove" then
-workspace.Players:FindFirstChild(game:GetService("Players").LocalPlayer.Name).InTrans:Destroy()
-workspace:FindFirstChild(game:GetService("Players").LocalPlayer.Name).InTrans:Destroy()
-end)
-
---end
 end
 
 local nonamexd = game.Players.LocalPlayer.Name
@@ -632,5 +635,5 @@ checktext.Visible = false
 Notwhitelitedtext.Visible = true
 wait(2)
 whitelist:Destroy()
-game.Players.LocalPlayer:kick "User is not whitelisted! Please buy it before!"
+game.Players.LocalPlayer:kick "User is not whitelisted! Please buy before!"
 end
