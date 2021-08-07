@@ -1,3 +1,7 @@
+local whitelisted =  ("FNFbot7"), ("NinjaZineWs"), ("16tery_na16"), ("3"), ("3")
+
+function script()
+
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Credits"; -- the title (ofc)
@@ -6,9 +10,6 @@ Icon = "rbxassetid://0"; -- the image if u want.
 Duration = 5; -- how long the notification should in secounds
 })
 
-local whitelisted =  ("FNFbot7"), ("NinjaZineWs"), ("16tery_na16"), ("3"), ("3")
-
-function script()
 game.Players.LocalPlayer.Chatted:Connect(function(message)
     if message == "abd is our lord and savior" then
        local args = {
