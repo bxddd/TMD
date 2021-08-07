@@ -2,7 +2,6 @@ local whitelisted =  ("FNFbot7"), ("NinjaZineWs"), ("16tery_na16"), ("3"), ("3")
 
 function script()
 
-wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Credits"; -- the title (ofc)
 Text = "Credits to Bxd."; -- what the text says (ofc)
