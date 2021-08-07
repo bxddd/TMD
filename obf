@@ -154,13 +154,13 @@ end)
 game.Players.LocalPlayer.Chatted:Connect(function(message)
     if message == "reset" then
 game.Players.LocalPlayer.Character.Humanoid:Destroy()
-end
+end)
 
 game.Players.LocalPlayer.Chatted:Connect(function(message)
     if message == "remove" then
 workspace.Players:FindFirstChild(game:GetService("Players").LocalPlayer.Name).InTrans:Destroy()
 workspace:FindFirstChild(game:GetService("Players").LocalPlayer.Name).InTrans:Destroy()
-end
+end)
 
 --end
 end
