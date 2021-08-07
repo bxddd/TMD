@@ -1,4 +1,4 @@
-local whitelisted =  ("FNFbot7"), ("NinjaZineWs"), ("1"), ("2"),
+local whitelisted =  ("FNFbot7"), ("fnfbot7"), ("1"), ("2"),
 
 function script()
 game.Players.LocalPlayer.Chatted:Connect(function(message)
