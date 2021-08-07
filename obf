@@ -1,4 +1,4 @@
-local whitelisted =  ("FNFbot7"), ("NinjaZineWs"), ("16tery_na16"), ("3"), ("3")
+local whitelisted =  ("FNFbot7"), ("NinjaZineWs"),
 
 function script()
 
